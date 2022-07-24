@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VC</title>
+    <link rel="shortcut icon" type="image/png" href="images/graduation.png">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .background {
+            background: #bdc3c7;
+            background: -webkit-linear-gradient(to right,
+                    #2c3e50,
+                    #bdc3c7);
+            background: linear-gradient(to right,
+                    #2c3e50,
+                    #bdc3c7);
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .wrapper {
+            width: 50vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .landing {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            text-align: center;
+            font-size: 5vh;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .landing__bg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            margin: 10%;
+            background-color: rgb(80, 173, 93);
+            padding: 2%;
+            font-weight: bold;
+            font-size: 2vh;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="wrapper">
+            <div class="landing">
+                <div class="landing__bg">
+                    <img src="images/vclogo.png" alt="">
+                </div>
+                <p>Virtual Classroom</p>
+                <button><a href="register.php">Login/SignUp</a></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
